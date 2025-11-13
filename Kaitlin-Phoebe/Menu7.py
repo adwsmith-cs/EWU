@@ -43,17 +43,40 @@ def printMenu():
     print("8. exit")
 
 def menuItemOne():
-    print("This is Menu Item 1")
+    mylist = [1,2,3,4,5]
+    print(mylist)
+    mylist.append(int(input("Type a number to add to the list: ")))
+    print(mylist)
 def menuItemTwo():
-    print("This is Menu Item 2")
+    mylist=[5,4,3,2,1]
+    print(mylist)
+    mylist.remove(int(input("Type a number to remove from the list:")))
+    print(mylist)
 def menuItemThree():
-    print("This is Menu Item 3")
+    mylist=[2,1,3,5,4]
+    print(mylist)
+    mylist.pop(int(input("Type position of number to remove:"))-1)
+    print(mylist)
 def menuItemFour():
-    print("This is Menu Item 4")
+    mylist=[1,5,3,4,2]
+    print(mylist)
 def menuItemFive():
-    print("This is Menu Item 5")
+    mylist=[5,2,1,3,4,]
+    print(mylist)
+    total=0
+    for i in range(len(mylist)):
+        total+=mylist[i]
+    total/=len(mylist)
+    print(total)
 def menuItemSix():
-    print("This is Menu Item 6")
+    mylist[1,2,3,4,5]
+    print(mylist)
+if len(list)%2==1:
+    (mylist)[int(len(mylist)/2)]
+else: (mylist)[(int(len(mylist)/2))]+mylist[(len((mylist))/2)-1]/2
+print(mylist)
+
+    
 def menuItemSeven():
     print("This is Menu Item 7")
 
